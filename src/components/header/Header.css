@@ -1,0 +1,15 @@
+.Header {
+  background-color: black;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-bottom: 40px;
+  height: 120px;
+}
+.Header-logo {
+  display: flex;
+}
+/* .Clock {
+  padding-top: 50px;
+} */

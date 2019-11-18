@@ -1,10 +1,11 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 30px;
+  padding-left: 50px;
 }
 
 .App-header {
@@ -48,10 +49,20 @@ tr {
 }
 
 .footer {
-  padding-top: 20px;
+  padding-top: 80px;
   text-align: center;
 }
-
+.touristInfo {
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  display: flex;
+}
+.order {
+  list-style-type: none;
+  align-content: left;
+}
 .card {
   width: 18rem;
 }
